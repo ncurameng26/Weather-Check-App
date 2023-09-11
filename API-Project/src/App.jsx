@@ -1,13 +1,15 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
+import Message from './components/Message';
+
 
 function App() {
 
   return (
     <>
-      <h1> Hello </h1>
+      <Message />
     </>
-  )
+  ) 
 }
 
 export default App
