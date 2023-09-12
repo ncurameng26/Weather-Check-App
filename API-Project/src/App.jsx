@@ -1,13 +1,12 @@
-import { useState, useEffect } from 'react'
 import './App.css'
-import Message from './components/Message';
+import MainPage from './components/MainPage';
 
 
 function App() {
 
   return (
     <>
-      <Message />
+      <MainPage />
     </>
   ) 
 }
