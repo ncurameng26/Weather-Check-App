@@ -1,8 +1,6 @@
-import { useState, useEffect } from 'react'
-
-function ConvertCelcius(celcius){
-    var temp = Math.floor(celcius * (9/5) + 32)
-    return(temp)
+function ConvertCelcius(farenheit){
+    var tempcelcius = Math.floor(farenheit * (9/5) + 32)
+    return(tempcelcius)
   }
 
 export default ConvertCelcius;

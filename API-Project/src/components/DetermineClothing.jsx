@@ -1,5 +1,3 @@
-import { useState, useEffect } from 'react'
-
 function DetermineClothing(temp) {
         if (temp <= 40){
           return ("Wear Warm Clothes, Long Sleeves, Pants and Jacket. Layer!")
